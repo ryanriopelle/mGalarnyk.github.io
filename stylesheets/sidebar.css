@@ -1,0 +1,85 @@
+html,
+body {
+	height: 100%;
+	overflow: hidden;
+}
+
+.meny {
+	display: none;
+	padding: 20px;
+	overflow: auto;
+	background: #333;
+	color: #eee;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.meny ul {
+	margin-top: 10px;
+}
+
+.meny ul li {
+	display: inline-block;
+	width: 200px;
+	list-style: none;
+	font-size: 36px;
+	padding: 3px 18px;
+}
+
+.meny ul li:before {
+	content: '-';
+	margin-right: 5px;
+	color: rgba( 255, 255, 255, 0.2 );
+}
+
+.meny ul li a:hover {
+	color: #FFF;
+}
+
+.meny img {
+  padding: 0;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.8);
+  box-shadow: 0 0 10px rgba(0,0,0,.8);
+}
+
+/**
+ * Hint graphic that appears while menu is inactive
+ */
+.meny-arrow {
+	position: absolute;
+	z-index: 10;
+	width: 40px;
+  height: 40px;
+  border-top: 20px solid #aaa;
+  border-right: 20px solid #aaa;
+  border-radius: 4px;
+  -webkit-transform: rotate(45deg);
+  	 -moz-transform: rotate(45deg);
+  		-ms-transform: rotate(45deg);
+  		 -o-transform: rotate(45deg);
+  				transform: rotate(45deg);
+
+	-webkit-transition: opacity 0.4s ease 0.4s;
+	   -moz-transition: opacity 0.4s ease 0.4s;
+	    -ms-transition: opacity 0.4s ease 0.4s;
+	     -o-transition: opacity 0.4s ease 0.4s;
+	        transition: opacity 0.4s ease 0.4s;
+}
+
+.meny-left .meny-arrow {
+	left: 18px;
+	top: 50%;
+	margin-top: -20px;
+}
+
+.meny-active .meny-arrow {
+	opacity: 0;
+
+	-webkit-transition: opacity 0.2s ease;
+	   -moz-transition: opacity 0.2s ease;
+	    -ms-transition: opacity 0.2s ease;
+	     -o-transition: opacity 0.2s ease;
+	        transition: opacity 0.2s ease;
+}
