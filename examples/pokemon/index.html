@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" type="image/png" href="img/logo_pokeball.png" />
+		<meta charset="utf-8">
+		<title>Pokemon Battle Demo</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href="css/stylesheet.css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		<div id = "main_container" class = "bullseye border shadow 1 border radius">
+			<div id = "top_screen">
+
+				<img id = "charmander-img" src = "img/charmander.png" class = "absolute" style = "height: 115px; top: 121px; left: 40px" />
+				<div id = "user-name" class = "absolute "></div>
+				<div id = "user-lvl" class = "absolute "> </div>
+
+				<div class = "absolute" style = "width: 71px; top: 216px; left: 277px;"> 
+					<div id = "user-health-bar" class = "absolute"> </div>
+				</div>
+
+				<img src = "img/your_info.png" class = "absolute" style = "height: 45px; top: 187px; right: 10px;" />
+
+				<img id = "attack-img" src = "img/attack.png" class = "absolute hide" />
+
+
+				<img id = "pikachu-img" src = "img/pikachu.png" class = "absolute" style = "height: 115px; top: 40px; right: 46px;" />
+				<div id = "cpu-name" class = "absolute "></div>
+				<div id = "cpu-lvl" class = "absolute "></div>
+				<div class = "absolute" style = "width: 71px; top: 39px; left: 72px;"> 
+					<div id = "cpu-health-bar" class = "absolute"> </div>
+				</div>
+
+
+				<img src = "img/enemy_info.png" class = "absolute" style = "height: 45px; top: 10px; left: 10px;" />
+
+
+				<div id = "chat-text" class = "absolute text-subhead"></div>
+
+
+
+
+
+				<img src = "img/grass.png" class = "img-spacing" style = "width: 400px;"/>
+				<img src = "img/chat_window.png" class = "img-spacing" style = "width: 400px" />
+
+			</div>
+		<div id = "bottom_screen"> 
+			<div id = "user-buttons" class = "hide">
+				
+				<div id = "move1-button" class = "pointer" value = "0">
+					<div id = "move1-text" class = "absolute text-18 text-center"></div>
+					<img src = "img/move.png" class = "absolute" style = "height: 75px; bottom: 170px; left: 20px" />
+				</div>
+
+				<div id = "move2-button" class = "pointer" value = "1">
+					<div id = "move2-text" class = "absolute text-18 text-center"></div>
+					<img src = "img/move.png" class = "absolute" style = "height: 75px; bottom: 170px; right: 20px" />
+				</div>
+
+				<div id = "move3-button" class = "pointer" value = "2">
+					<div id = "move3-text" class = "absolute text-18 text-center"></div>
+					<img src = "img/move.png" class = "absolute" style = "height: 75px; bottom: 75px; left: 20px" />
+				</div>
+
+				<div id = "move4-button" class = "pointer" value = "3">
+					<div id = "move4-text" class = "absolute text-18 text-center"></div>
+					<img src = "img/move.png" class = "absolute" style = "height: 75px; bottom: 75px; right: 20px" />
+				</div>
+
+
+			</div>
+
+			<div id = "game-over" class = "absolute text 30 text-center hide"> game over </div>
+			<img src = "img/toolbar_bg.png" class = "img-spacing" style = "width: 400px; " />
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/javascript.js"></script>
+	</body>
+</html>
