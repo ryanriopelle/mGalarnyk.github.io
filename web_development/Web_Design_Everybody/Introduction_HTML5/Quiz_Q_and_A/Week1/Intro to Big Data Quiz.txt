@@ -1,0 +1,242 @@
+Introduction to HTML5
+Week One - HTML/Web basics
+
+1. 
+What does HTML stand for?
+
+Enter answer here HyperText Markup Language
+
+2. 
+Unlike earlier versions of HTML, HTML5 produces pages that look the same across all browsers.
+
+try False
+
+True
+
+3. 
+FTP stands for
+
+Files to ush
+
+try File Transfer Protocol
+
+File Transmission Pipe
+
+4. 
+What does HTTP stand for?
+
+Enter answer here Hypertext Transfer Protocol
+
+
+5. 
+Which of the following is part of a URL?
+Uniform Resource Identifier
+
+
+try protocol
+
+editor
+
+hosting service
+
+
+6. 
+The Internet is a type of
+
+Hypertext Network
+
+tryWide Area Network
+
+Local Area Network
+
+
+7. 
+What is the Request/Response Cycle?
+
+The process that happens when a server requests a page and a client responds with the appropriate files
+
+The process that happens when a HTML5 is created with an editor
+
+try The process that happens when a client requests a page and a server responds with the appropriate files
+
+8. 
+A ___________________try server_____ is a computer that is in charge of handling resource requests from multiple computers.
+
+Enter answer here
+
+
+9. 
+Which of the following an example of a top-level domain?
+
+try .com
+
+umich.edu
+
+wikipedia.org
+
+
+10. 
+The Domain Name Service looks up the domain and returns the:
+
+try IP address
+
+server
+
+host
+
+document
+
+
+11. 
+Which organization is responsible for assigning top-level domain names?
+
+try Internet Corporation for Assigned Numbers and Names (ICANN)
+
+Internet Domain Name Server (IDNS)
+
+World Wide Web Consortium (W3C)
+
+
+12. 
+The Request-Response Cycle...
+
+may require several iterations of the Request-Response Cycle.
+
+is performed once for each requested page.
+
+is an outdated process used by HTML 4.1
+
+13. 
+What does LAN stand for?
+
+Enter answer here: local area network
+
+14. 
+What does WAN stand for?
+
+Enter answer here wide area network
+
+
+15. 
+Which is the correct file extension for a web page?
+
+.ppt
+
+.doc
+
+TRY .html
+
+.txt
+
+16. 
+HTML uses _________ to annotate documents. This is a way of marking up the content to identify specific HTML elements.
+
+Enter answer here: tags
+
+
+17. 
+The original web was developed
+
+TRY try as a way for scientists to exchange information
+
+as a way to display graphical images.
+
+as way to increase international commerce
+
+18. 
+The first graphical browser was.... (please use one word answer)
+
+Enter answer here: Mosaic
+
+19. 
+What are proprietary tags?
+
+Tags that displayed copyright information
+
+try Tags that work only on certain browsers
+
+Tags used to define ownership of the content
+
+
+20. 
+Which of these tags breaks the tenet of the separation of content and layout?
+
+body
+
+try h1
+
+font
+
+21. 
+Which of the following are browsers?
+
+Internet Explorer, Windows, Safari
+
+Safari, Chrome, Internet Explorer
+
+Firefox, Chrome, Safari, Sublime
+
+22. 
+W3C stands for
+
+World Wide Web Consortium
+
+WWW Compliance
+
+World Wide Web Communitry
+
+23. 
+A basic functionality of browsers is to translate HTML documents into viewable webpages.
+
+try True
+
+False
+
+24. 
+Which version of HTML included browser specific features?
+
+HTML 3.2
+
+try HTML 5
+
+HTML 4.01
+
+HTML 2.0
+
+25. 
+The predecessor of the internet was
+
+Al Gore
+
+answer Arpanet
+
+CompuServe
+
+DARPA
+
+26. 
+URL stands for
+
+Unordered Resource Location
+
+answer Uniform Resource Locator
+
+Universal Relation Locator
+
+27. 
+_____________ is used to create rules about the color, font, and layout of our pages
+
+Enter answer here CSS (Cascading Style Sheet)
+
+28. 
+CSS1 was introduced for public use in
+
+Enter answer here 1996?
+
+29. 
+What editor are you using?
+
+What do you think?
+
+30. 
+What browser(s) are you using?
