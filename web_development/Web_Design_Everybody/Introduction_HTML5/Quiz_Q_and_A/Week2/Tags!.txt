@@ -1,0 +1,307 @@
+Introduction to HTML5
+Week Two - Tags
+
+1. 
+The DOM is
+
+TRY an acronym for Direct Object Manipulation
+
+a standard for creating well-structured documents
+
+a standard for transmitting documents across the Internet
+
+2. 
+Every well-formed HTML document should include:
+
+answer doctype, head, body
+
+doctype, header, body
+
+header, nav, footer
+
+alt text
+
+3. 
+Which of the following are valid tags for HTML5 headings?
+
+<h5>..</h5>
+
+<heading>..</heading>
+
+no<header>..</header>
+
+<h9>..</h9>
+
+4. 
+Which tag represents a line break?
+
+answer <br>
+
+<nl>
+
+<break>
+
+<lb>
+
+
+5. 
+Using the header and footer tags can improve the search engine optimization for your page.
+
+TRUE True
+
+False
+
+6. 
+What is wrong with the following code?
+
+<a href = "http://www.umich.edu"></a>
+
+
+
+NO The alt text attribute is missing from the tag
+
+The anchor link is self-closing. Remove the </a> and the code will work.
+
+This code is semantically and syntactically correct.
+
+This link doesn't provide any way to click on the link.
+
+
+7. 
+The <meta> tag is a self-closing element.
+
+ANSWER True
+
+False
+
+8. 
+All of the content you wish to appear on the screen should be in which tag?
+
+<content>
+
+TRY <html>
+
+<body>
+
+<main>
+
+9. 
+Which tag is used to create a link?
+
+<hyper>
+
+<anchor>
+
+<link>
+
+TRY <a>
+
+10. 
+What is the proper way to display an ampersand in an HTML document?
+&amp;
+
+11. 
+Which HTML element is used to define list items?
+
+TRY <li>
+
+<dl>
+
+<item>
+
+<ul>
+
+
+12. 
+The tags to create definitions are:
+
+TRY<dl><dt><dd>
+
+<def><dt><li>
+
+<dl><term><def>
+
+<def><dt><dd>
+
+13. 
+The <meter> tag requires the attributes min, max, and value.
+
+
+TRY True
+
+False
+
+14. 
+The ______mark_______ element can be used as an easy way to highlight certain content.
+
+Enter answer here
+
+<style>
+mark { 
+    background-color: yellow;
+    color: black;
+}
+</style>
+
+
+15. 
+The way to caption an image is to use
+
+caption
+
+try figcaption
+
+alt text within an <img> tag
+
+16. 
+The _______<figcaption>_______ tag allows you to label the contents of an image element to describe the content. (Only the opening tag is necessary.)
+
+Enter answer here
+
+
+
+17. 
+Most pages have a ___________________ system for moving from page to page within a site.
+
+TRY navigation
+
+history
+
+semantic
+
+syntactic
+
+18. 
+Write the proper code to display an image from a local file called "Bacon.jpg". The alt text should be "My Dog".
+
+Enter answer here
+
+<img src=“Bacon.jpg" alt="My Dog">
+
+
+19. 
+Which of the following is a properly formatted link?
+
+<a link = "www.wikipedia.org">wikipedia.org</a>
+
+TRY <a href = "www.wikipedia.org">wikipedia.org</a>
+
+<a src = "www.wikipedia.org">wikipedia.org</a>
+
+<link href = "www.wikipedia.org">wikipedia.org</a>
+
+
+20. 
+Which of the following is a valid attribute for a link?
+
+alt
+
+TRY target
+
+src
+
+
+21. 
+Some tags require special features to work correctly, e.g. alt, href, src, etc. These extra pieces of information are called _______attributes_______
+
+
+22. 
+Using lists to create a navigation bar may cause
+
+increased search engine optimization (SEO) results
+
+performance issues.
+
+TRY accessibility issues
+
+23. 
+An absolute path is the base path plus the relative paths.
+
+True
+
+TRY False
+
+
+24. 
+The relative path should include the top-level domain.
+
+True
+
+TRY False
+
+25. 
+.mp3 files are of higher quality than .wav files
+
+True
+
+TRY False
+
+26. 
+When you include multimedia elements it is a good idea to include the _____controls______________ attribute to give page viewers the ability to play, pause, and stop the music or video.
+
+
+27. 
+What is the correct tag for playing a video? (Opening tag only, make sure to include the brackets.)
+
+try <video>
+
+28. 
+Which code properly creates the nested list structure shown here?
+1. Vegetables
+2. Fruit
+ unordered blueberries 
+ unordered bananas
+
+Notice that the blueberries and bananas are part of the fruit component.
+
+no
+<ol>		
+    <li>Vegetables</li>	
+    <li>Fruit>/li>
+    <ul>				
+       <li>Blueberries</li>
+       <li>Bananas</li>
+    </ul>
+</ol>
+
+try
+<ol>		
+    <li>Vegetables</li>	
+    <li>Fruit
+       <ul>				
+          <li>Blueberries</li>
+	  <li>Bananas</li>
+       </ul>
+    </li>
+</ol>
+
+no
+<ul>		
+    <li>Vegetables</li>	
+    <li>Fruit>/li>
+    <ol>				
+       <li>Blueberries</li>
+       <li>Bananas</li>
+    </ol>
+</ul>
+
+
+<ul>		
+    <li>Vegetables</li>	
+    <li>Fruit
+       <ol>				
+          <li>Blueberries</li>
+	  <li>Bananas</li>
+       </ol>
+    </li>
+</ul>
+
+
+
+29. 
+Which code will properly insert headings along each row?
+<table> 
+	<tr><th>Name</th></tr>
+	<tr><td>Michael</td></tr>
+
+</table>
