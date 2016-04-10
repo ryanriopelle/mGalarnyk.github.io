@@ -4,7 +4,12 @@ Week Two - Tags
 1. 
 The DOM is
 
-TRY an acronym for Direct Object Manipulation
+
+ANSWER tree-like
+
+
+
+not an acronym for Direct Object Manipulation
 
 a standard for creating well-structured documents
 
@@ -24,7 +29,7 @@ alt text
 3. 
 Which of the following are valid tags for HTML5 headings?
 
-<h5>..</h5>
+ANSWER <h5>..</h5>
 
 <heading>..</heading>
 
@@ -64,7 +69,7 @@ The anchor link is self-closing. Remove the </a> and the code will work.
 
 This code is semantically and syntactically correct.
 
-This link doesn't provide any way to click on the link.
+try This link doesn't provide any way to click on the link.
 
 
 7. 
@@ -79,9 +84,9 @@ All of the content you wish to appear on the screen should be in which tag?
 
 <content>
 
-TRY <html>
+no <html>
 
-<body>
+ANSWER <body>
 
 <main>
 
@@ -94,16 +99,20 @@ Which tag is used to create a link?
 
 <link>
 
-TRY <a>
+ANSWER <a>
 
 10. 
 What is the proper way to display an ampersand in an HTML document?
-&amp;
+ANSWER &amp;
+
+
+ANSWER for space 
+&nbsp;
 
 11. 
 Which HTML element is used to define list items?
 
-TRY <li>
+ANSWER <li>
 
 <dl>
 
@@ -115,7 +124,7 @@ TRY <li>
 12. 
 The tags to create definitions are:
 
-TRY<dl><dt><dd>
+ANSWER <dl><dt><dd>
 
 <def><dt><li>
 
@@ -129,10 +138,12 @@ The <meter> tag requires the attributes min, max, and value.
 
 TRY True
 
-False
+ANSWER False
 
 14. 
 The ______mark_______ element can be used as an easy way to highlight certain content.
+
+ANSWER
 
 Enter answer here
 
@@ -149,21 +160,21 @@ The way to caption an image is to use
 
 caption
 
-try figcaption
+ANSWER figcaption
 
 alt text within an <img> tag
 
 16. 
-The _______<figcaption>_______ tag allows you to label the contents of an image element to describe the content. (Only the opening tag is necessary.)
+The ______________ tag allows you to label the contents of an image element to describe the content. (Only the opening tag is necessary.)
 
 Enter answer here
-
+<figure>
 
 
 17. 
 Most pages have a ___________________ system for moving from page to page within a site.
 
-TRY navigation
+ANSWER navigation
 
 history
 
@@ -176,7 +187,7 @@ Write the proper code to display an image from a local file called "Bacon.jpg". 
 
 Enter answer here
 
-<img src=“Bacon.jpg" alt="My Dog">
+NOT <img src=“Bacon.jpg" alt="My Dog">
 
 
 19. 
@@ -184,7 +195,7 @@ Which of the following is a properly formatted link?
 
 <a link = "www.wikipedia.org">wikipedia.org</a>
 
-TRY <a href = "www.wikipedia.org">wikipedia.org</a>
+ANSWER <a href = "www.wikipedia.org">wikipedia.org</a>
 
 <a src = "www.wikipedia.org">wikipedia.org</a>
 
@@ -196,14 +207,23 @@ Which of the following is a valid attribute for a link?
 
 alt
 
-TRY target
+ANSWER target
 
 src
+
+20. 
+What should target = "_blank" do when included in a link tag?
+
+answer Opens the link in a new tab or window
+
+not Opens the link in a in a tab called "_blank"
+
+This is not a valid expression.
 
 
 21. 
 Some tags require special features to work correctly, e.g. alt, href, src, etc. These extra pieces of information are called _______attributes_______
-
+ANSWER
 
 22. 
 Using lists to create a navigation bar may cause
@@ -212,38 +232,53 @@ increased search engine optimization (SEO) results
 
 performance issues.
 
-TRY accessibility issues
+ANSWER accessibility issues
 
 23. 
 An absolute path is the base path plus the relative paths.
 
-True
+ANSWER True
 
 TRY False
 
+23. 
+Which of the following is an absolute path.
+
+http://www.woundedwarriorproject.org/media/834089/after_action_report_-_spring_2015.pdf
+
+images/MyPicture.jpg
+
+no None of these options.
 
 24. 
 The relative path should include the top-level domain.
 
 True
 
-TRY False
+ANSWER False
 
 25. 
 .mp3 files are of higher quality than .wav files
 
 True
 
-TRY False
+ANSWER False
+
+25. 
+.mp3 files load faster than .wav files
+
+ANSWER True
+
+False
 
 26. 
 When you include multimedia elements it is a good idea to include the _____controls______________ attribute to give page viewers the ability to play, pause, and stop the music or video.
-
+answer controls
 
 27. 
 What is the correct tag for playing a video? (Opening tag only, make sure to include the brackets.)
 
-try <video>
+answer <video>
 
 28. 
 Which code properly creates the nested list structure shown here?
@@ -264,7 +299,7 @@ no
     </ul>
 </ol>
 
-try
+answer
 <ol>		
     <li>Vegetables</li>	
     <li>Fruit
@@ -300,8 +335,4 @@ no
 
 29. 
 Which code will properly insert headings along each row?
-<table> 
-	<tr><th>Name</th></tr>
-	<tr><td>Michael</td></tr>
 
-</table>
